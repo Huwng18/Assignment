@@ -1,13 +1,10 @@
 body {
     margin: 0px;
-    background-image: url('https://gcs.tripi.vn/public-tripi/tripi-feed/img/474080vZl/hinh-nen-powerpoint-dai-ngan-ha-3d_084836963.jpg'); /* Đường dẫn đến hình ảnh */
-    background-size: cover; /* Để hình ảnh phủ kín toàn bộ nền */
-    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
-    background-position: center center; /* Căn giữa hình ảnh */
-    font-family: Arial, sans-serif; /* Thiết lập font chữ */
-    h1{
-        color: blue;
-    }
+    background-image: url('https://gcs.tripi.vn/public-tripi/tripi-feed/img/474080vZl/hinh-nen-powerpoint-dai-ngan-ha-3d_084836963.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    font-family: Arial, sans-serif;
     h2{
         color: rgb(255, 123, 0);
     }
@@ -47,9 +44,9 @@ body {
 .right-image {
     float: right;
     margin-left: 0px;
-    margin-right: 100px; /* Khoảng cách từ hình ảnh đến phần văn bản */
-    width: 175px; /* Chiều rộng của hình ảnh, bạn có thể thay đổi tùy ý */
-    height: 175px; /* Để giữ tỉ lệ của hình ảnh */
+    margin-right: 100px; 
+    width: 175px; 
+    height: 175px; 
 }
 .company1{
     padding-left: 114px;
@@ -79,4 +76,23 @@ body {
 }
 .fb{
     color: blue;
+}
+.section {
+    margin-bottom: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.section-title {
+    background-color: #48443c;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 -20px 20px -20px;
+    font-size: 18px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.Name{
+    text-align: center;
 }
